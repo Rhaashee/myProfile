@@ -1,23 +1,23 @@
 const projectsData = [
   {
     id: 1,
-    name: "Movie Time",
-    category: "MERN",
+    name: "Virtual Herbal Garden – AYUSH Soap Products",
+    category: "Web Development",
     description:
-      "Full stack movie ticket booking application with AI-powered smart movie suggestions.",
-    technologies: ["ReactJS", "ExpressJS", "MongoDB"],
-    status: "Live",
+      "Designed an interactive platform for exploring herbal plants and their uses in AYUSH soap products, providing detailed plant and product information.",
+    technologies: ["Python", "HTML", "CSS"],
+    status: "Completed",
     liveDemo: "#",
     github: "#"
   },
   {
     id: 2,
-    name: "Gola",
-    category: "MERN",
+    name: "AI-Integrated Feedback System for Teachers (Prototype)",
+    category: "AI / NLP",
     description:
-      "Cab booking platform that helps users quickly book rides for daily travel.",
-    technologies: ["ReactJS", "ExpressJS", "MongoDB"],
-    status: "Live",
+      "Built a prototype to automate student feedback collection and analysis using NLP techniques, enabling structured insights from textual responses.",
+    technologies: ["Python", "Flask", "NLP"],
+    status: "Prototype",
     liveDemo: "#",
     github: "#"
   },
@@ -31,16 +31,28 @@ const projectsData = [
     status: "Live",
     liveDemo: "#",
     github: "#"
+  },{
+
+    id: 5,
+    name: "Land Leasing Platform for Farmers (Ongoing)",
+    category: "Web Development",
+    description:
+      "Developing a web-based platform for secure land leasing with buyer and seller authentication, enabling transparent and efficient transactions.",
+    technologies: ["HTML", "CSS", "JavaScript", "MySQL"],
+    status: "Completed",
+    liveDemo: "#",
+    github: "#"
   },
   {
-    id: 4,
-    name: "Developer Stats Dashboard",
-    category: "JavaScript",
+    id: 6,
+    name: "BookMyShow Clone",
+    category: "MERN",
     description:
-      "Dynamic dashboard that loads developer statistics and profile insights using Fetch API.",
-    technologies: ["JavaScript", "Fetch API", "JSON"],
-    status: "Demo",
+      "Full stack movie ticket booking application with AI-powered smart movie suggestions.",
+    technologies: ["ReactJS", "ExpressJS", "MongoDB", "NodeJS"],
+    status: "Ongoing",
     liveDemo: "#",
     github: "#"
   }
+
 ];
