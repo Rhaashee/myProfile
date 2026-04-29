@@ -1,18 +1,26 @@
-const swiperButton = document.getElementById("om-swiper");
+const swiperButton = document.getElementById("home-swiper");
 
-// hide button in the first page
-swiperButton.style.display = "none";
+// safety check (important)
+if (swiperButton) {
 
-// when button is clicked -> go to home (top of page)
-swiperButton.addEventListener("click", function () {
-    window.scrollTo(0, 0);
-});
+    // hide initially
+    swiperButton.style.display = "none";
 
-// to show button only when scroll down 
-window.addEventListener("click",function(){
-    if(this.window.scrollY>300){
-        swiperButton.style.display = "block";
-    }else{
-        swiperButton.style.display = "none";
-    }
-});
+    // scroll to top
+    swiperButton.addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    });
+
+    // show on scroll
+    window.addEventListener("scroll", function () {
+        if (window.scrollY > 300) {
+            swiperButton.style.display = "block";
+        } else {
+            swiperButton.style.display = "none";
+        }
+    });
+
+}
