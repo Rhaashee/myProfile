@@ -620,15 +620,3 @@ textarea:focus {
 
     background:#52525b;
 }
-/* ================= DARK SKILLS CARD ================= */
-
-.dark-theme .skill-card{
-
-    background:#2a1f52;
-
-    border:1px solid #6d4aff;
-
-    box-shadow:
-    0 10px 30px rgba(109,74,255,0.15);
-
-}

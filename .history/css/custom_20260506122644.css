@@ -36,8 +36,8 @@ aside {
 
     background: rgba(255, 255, 255, 0.78);
 
-    -webkit-backdrop-filter: blur(18px);
-    backdrop-filter: blur(18px);
+   -webkit-backdrop-filter: blur(18px);
+backdrop-filter: blur(18px);
 
     border-right: 1px solid #e9d5ff;
 
@@ -470,28 +470,12 @@ textarea:focus {
 
 .dark-theme .project-card,
 .dark-theme .education-card,
-.dark-theme .stats-card{
+.dark-theme .stats-card {
+    background: #18181b;
 
-    background:#2e1065;
+    border: 1px solid #27272a;
 
-    border:1px solid #7c3aed;
-
-    box-shadow:
-    0 10px 30px rgba(139,92,246,0.25);
-
-}
-
-/* ================= DARK SKILL CARDS ================= */
-
-.dark-theme .skill-card{
-
-    background:#2e1065;
-
-    border:1px solid #7c3aed;
-
-    box-shadow:
-    0 10px 30px rgba(139,92,246,0.25);
-
+    box-shadow: none;
 }
 
 /* ================= DARK INPUTS ================= */
@@ -601,34 +585,4 @@ textarea:focus {
 .dark-theme .skill-card p {
 
     color: #a1a1aa;
-}
-/* ================= DOWNLOAD BUTTON ================= */
-
-.download-btn{
-
-    background:#8b5cf6;
-}
-
-/* ================= DARK THEME ================= */
-
-.dark-theme .download-btn{
-
-    background:#3f3f46;
-}
-
-.dark-theme .download-btn:hover{
-
-    background:#52525b;
-}
-/* ================= DARK SKILLS CARD ================= */
-
-.dark-theme .skill-card{
-
-    background:#2a1f52;
-
-    border:1px solid #6d4aff;
-
-    box-shadow:
-    0 10px 30px rgba(109,74,255,0.15);
-
 }

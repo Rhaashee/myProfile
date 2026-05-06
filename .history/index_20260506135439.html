@@ -6,6 +6,7 @@
     <!-- META -->
 
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Rhaashee | Portfolio</title>
@@ -26,8 +27,7 @@
 
     <!-- FONT AWESOME -->
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- CUSTOM CSS -->
 
@@ -74,7 +74,7 @@
 
                 <li>
                     <a href="#home"
-                        class="nav-link flex items-center gap-4 text-purple-500 font-semibold text-[17px] tracking-wide">
+                        class="flex items-center gap-4 text-purple-500 font-semibold text-[17px] tracking-wide">
 
                         <span class="w-2 h-2 bg-purple-500 rounded-full"></span>
 
@@ -85,7 +85,7 @@
 
                 <li>
                     <a href="#projects"
-                        class="nav-link flex items-center gap-4 text-slate-500 hover:text-purple-500 transition text-[17px] tracking-wide">
+                        class="flex items-center gap-4 text-slate-500 hover:text-purple-500 transition text-[17px] tracking-wide">
 
                         <span class="w-2 h-2 bg-slate-300 rounded-full"></span>
 
@@ -96,7 +96,7 @@
 
                 <li>
                     <a href="#education"
-                        class="nav-link flex items-center gap-4 text-slate-500 hover:text-purple-500 transition text-[17px] tracking-wide">
+                        class="flex items-center gap-4 text-slate-500 hover:text-purple-500 transition text-[17px] tracking-wide">
 
                         <span class="w-2 h-2 bg-slate-300 rounded-full"></span>
 
@@ -107,7 +107,7 @@
 
                 <li>
                     <a href="#skills"
-                        class="nav-link flex items-center gap-4 text-slate-500 hover:text-purple-500 transition text-[17px] tracking-wide">
+                        class="flex items-center gap-4 text-slate-500 hover:text-purple-500 transition text-[17px] tracking-wide">
 
                         <span class="w-2 h-2 bg-slate-300 rounded-full"></span>
 
@@ -116,29 +116,48 @@
                     </a>
                 </li>
 
+                <li>
+                    <a href="#contact"
+                        class="flex items-center gap-4 text-slate-500 hover:text-purple-500 transition text-[17px] tracking-wide">
+
+                        <span class="w-2 h-2 bg-slate-300 rounded-full"></span>
+
+                        Contact
+
+                    </a>
+                </li>
+
             </ul>
 
         </div>
 
-        <!-- DARK MODE BUTTON -->
+        <!-- THEME BUTTON -->
 
         <button id="theme-toggle"
-            class="
-            w-full
-            bg-purple-100
-            hover:bg-purple-500
-            hover:text-white
-            text-purple-700
-            py-5
-            text-lg
-            font-semibold
-            rounded-2xl
-            shadow-md
-            transition-all duration-300">
+            class="w-full bg-purple-100 hover:bg-purple-500 hover:text-white text-purple-700 py-5 text-lg font-semibold rounded-2xl shadow-md transition-all duration-300">
 
             Dark Mode
 
         </button>
+        <!-- CONTACT ICON -->
+
+<!-- CONTACT ICON -->
+
+<div class="flex justify-center mt-16 mb-6">
+
+    <button
+    id="open-contact" class="w-14 h-14 rounded-full bg-purple-50 hover:bg-purple-600 text-white
+    text-xl
+    shadow-lg
+    hover:scale-110
+    transition-all duration-300
+    flex items-center justify-center">
+
+        <i class="fa-solid fa-envelope"></i>
+
+    </button>
+
+</div>
 
     </aside>
 
@@ -162,25 +181,15 @@
 
             <div class="flex gap-4 text-sm font-semibold">
 
-                <a href="#home" class="text-purple-500">
-                    Home
-                </a>
+                <a href="#home" class="text-purple-500">Home</a>
 
-                <a href="#projects">
-                    Projects
-                </a>
+                <a href="#projects">Projects</a>
 
-                <a href="#education">
-                    Education
-                </a>
+                <a href="#education">Education</a>
 
-                <a href="#skills">
-                    Skills
-                </a>
+                <a href="#skills">Skills</a>
 
-                <a href="#" id="open-contact-mobile">
-                    Contact
-                </a>
+                <a href="#" id="open-contact">Contact</a>
 
             </div>
 
@@ -199,8 +208,7 @@
 
         <!-- ================= HERO SECTION ================= -->
 
-        <section id="home"
-            class="min-h-screen grid grid-cols-1 lg:grid-cols-2 items-center gap-10 px-8 lg:px-20">
+        <section id="home" class="min-h-screen grid grid-cols-1 lg:grid-cols-2 items-center gap-10 px-8 lg:px-20">
 
             <!-- LEFT -->
 
@@ -208,8 +216,7 @@
 
                 <!-- AVAILABLE -->
 
-                <div class="
-                inline-flex items-center gap-3
+                <div class="inline-flex items-center gap-3
                 border border-purple-200
                 bg-white/70
                 px-5 py-2
@@ -254,19 +261,8 @@
 
                 <div class="mt-10 mb-14">
 
-                    <a href="assets/Rhaashee_L_Resume.pdf"
-                        target="_blank"
-                        class="
-                        inline-block
-                        bg-purple-500
-                        hover:bg-purple-600
-                        text-white
-                        px-14 py-5
-                        text-lg
-                        font-semibold
-                        shadow-lg
-                        transition-all
-                        rounded-xl">
+                    <a href="assets/Rhaashee_L_Resume.pdf" target="_blank"
+                        class="download-btn inline-block bg-purple-500 hover:bg-purple-600 text-white px-14 py-5 text-lg font-semibold shadow-lg transition-all rounded-xl">
 
                         Download Resume
 
@@ -290,7 +286,7 @@
 
                     </div>
 
-                    <div class="stats-card bg-white rounded-3xl p-8 shadow-sm">
+                    <div class="stats-card bg-white rounded-3xl p-6 shadow-sm">
 
                         <h3 class="text-3xl font-black text-purple-500">
                             50+
@@ -322,9 +318,7 @@
 
             <div class="flex justify-center lg:justify-end h-screen">
 
-                <img
-                    src="assets/images/Rhaashee.png.jpeg"
-                    class="w-full lg:w-[38vw] h-screen object-cover shadow-2xl"
+                <img src="assets/images/Rhaashee.png.jpeg" class="w-full lg:w-[38vw] h-screen object-cover shadow-2xl"
                     alt="Rhaashee Portfolio Image">
 
             </div>
@@ -333,8 +327,7 @@
 
         <!-- ================= PROJECTS ================= -->
 
-        <section id="projects"
-            class="min-h-screen px-8 lg:px-16 py-24">
+        <section id="projects" class="min-h-screen px-8 lg:px-16 py-24">
 
             <h2 class="text-4xl lg:text-5xl font-black mb-6">
                 Projects
@@ -353,8 +346,7 @@
 
         <!-- ================= EDUCATION ================= -->
 
-        <section id="education"
-            class="min-h-screen px-8 lg:px-16 py-24">
+        <section id="education" class="min-h-screen px-8 lg:px-16 py-24">
 
             <h2 class="text-4xl lg:text-5xl font-black mb-16">
                 Education
@@ -366,8 +358,7 @@
 
         <!-- ================= SKILLS ================= -->
 
-        <section id="skills"
-            class="min-h-screen px-8 lg:px-16 py-24 mt-24">
+        <section id="skills" class="min-h-screen px-8 lg:px-16 py-24 mt-24">
 
             <h2 class="text-4xl lg:text-5xl font-black mb-16">
                 Skills
@@ -377,178 +368,146 @@
 
         </section>
 
-    </main>
 
-    <!-- ================= CONTACT MODAL ================= -->
+        
+<!-- ================= CONTACT MODAL ================= -->
 
-    <div id="contact-modal"
+<div id="contact-modal"
+class="
+fixed inset-0
+bg-black/40
+backdrop-blur-md
+hidden
+items-center
+justify-center
+z-[100]
+">
+
+    <!-- MODAL BOX -->
+
+    <div class="
+    bg-gradient-to-br
+    from-purple-500
+    to-violet-700
+    w-[90%]
+    max-w-2xl
+    rounded-3xl
+    p-10
+    shadow-2xl
+    relative">
+
+        <!-- CLOSE BUTTON -->
+
+        <button id="close-modal"
         class="
-        fixed inset-0
-        bg-black/40
-        backdrop-blur-md
-        hidden
-        items-center
-        justify-center
-        z-[100]">
+        absolute top-5 right-5
+        text-white text-2xl
+        hover:rotate-90
+        transition-all">
 
-        <!-- MODAL BOX -->
+            <i class="fa-solid fa-xmark"></i>
 
-        <div class="
-        bg-gradient-to-br
-        from-purple-500
-        to-violet-700
-        w-[90%]
-        max-w-2xl
-        rounded-3xl
-        p-10
-        shadow-2xl
-        relative">
+        </button>
 
-            <!-- CLOSE BUTTON -->
+        <!-- TITLE -->
 
-            <button id="close-modal"
-                class="
-                absolute top-5 right-5
-                text-white text-2xl
-                hover:rotate-90
-                transition-all">
+        <h2 class="
+        text-4xl
+        font-black
+        text-white
+        mb-3">Get in Touch
 
-                <i class="fa-solid fa-xmark"></i>
+        </h2>
+
+        <!-- SUBTITLE -->
+
+        <p class="
+        text-purple-100
+        mb-10
+        text-lg">
+
+            Have a project or opportunity?
+            Send me a message.
+
+        </p>
+
+        <!-- FORM -->
+
+        <form
+        id="popup-contact-form"
+        class="space-y-6">
+
+            <!-- NAME -->
+
+            <input
+            type="text"
+            id="contact-name"
+            placeholder="Your Name"
+            class="
+            w-full
+            px-6 py-5
+            rounded-2xl
+            bg-white
+            text-black
+            outline-none">
+
+            <!-- EMAIL -->
+
+            <input
+            type="email"
+            id="contact-email"
+            placeholder="Your Email"
+            class="
+            w-full
+            px-6 py-5
+            rounded-2xl
+            bg-white
+            text-black
+            outline-none">
+
+            <!-- MESSAGE -->
+
+            <textarea
+            id="contact-message"
+            rows="5"
+            placeholder="Your Message"
+            class="
+            w-full
+            px-6 py-5
+            rounded-2xl
+            bg-white
+            text-black
+            outline-none"></textarea>
+
+            <!-- VALIDATION MESSAGE -->
+
+            <p id="form-message"
+            class="text-sm"></p>
+
+            <!-- BUTTON -->
+
+            <button
+            type="submit"
+            class="
+            w-full
+            bg-white
+            text-purple-700
+            py-5
+            rounded-2xl
+            text-xl
+            font-bold
+            hover:scale-[1.02]
+            transition-all">
+
+                Send Message
 
             </button>
 
-            <!-- TITLE -->
-
-            <h2 class="
-            text-4xl
-            font-black
-            text-white
-            mb-3">
-
-                Get in Touch
-
-            </h2>
-
-            <!-- SUBTITLE -->
-
-            <p class="
-            text-purple-100
-            mb-10
-            text-lg">
-
-                Have a project or opportunity?
-                Send me a message.
-
-            </p>
-
-            <!-- FORM -->
-
-            <form
-                id="popup-contact-form"
-                class="space-y-6">
-
-                <!-- NAME -->
-
-                <input
-                    type="text"
-                    id="contact-name"
-                    placeholder="Your Name"
-                    class="
-                    w-full
-                    px-6 py-5
-                    rounded-2xl
-                    bg-white
-                    text-black
-                    outline-none">
-
-                <!-- EMAIL -->
-
-                <input
-                    type="email"
-                    id="contact-email"
-                    placeholder="Your Email"
-                    class="
-                    w-full
-                    px-6 py-5
-                    rounded-2xl
-                    bg-white
-                    text-black
-                    outline-none">
-
-                <!-- MESSAGE -->
-
-                <textarea
-                    id="contact-message"
-                    rows="5"
-                    placeholder="Your Message"
-                    class="
-                    w-full
-                    px-6 py-5
-                    rounded-2xl
-                    bg-white
-                    text-black
-                    outline-none"></textarea>
-
-                <!-- MESSAGE -->
-
-                <p id="form-message"
-                    class="text-sm"></p>
-
-                <!-- BUTTON -->
-
-                <button
-                    type="submit"
-                    class="
-                    w-full
-                    bg-white
-                    text-purple-700
-                    py-5
-                    rounded-2xl
-                    text-xl
-                    font-bold
-                    hover:scale-[1.02]
-                    transition-all">
-
-                    Send Message
-
-                </button>
-
-            </form>
-
-        </div>
+        </form>
 
     </div>
 
-    <!-- ================= FIXED CONTACT BUTTON ================= -->
-
-    <button
-        id="open-contact"
-        class="
-        fixed
-        bottom-8
-        right-8
-        z-[999]
-
-        w-16 h-16
-        rounded-full
-
-        bg-purple-500
-        hover:bg-purple-600
-
-        text-white
-        text-2xl
-
-        shadow-2xl
-
-        flex items-center justify-center
-
-        hover:scale-110
-        transition-all duration-300">
-
-        <i class="fa-solid fa-envelope"></i>
-
-    </button>
-
+</div>
     <!-- ================= SCRIPTS ================= -->
 
     <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
@@ -562,9 +521,7 @@
     <script src="js/features/education-render.js"></script>
     <script src="js/features/theme-toggle.js"></script>
     <script src="js/features/active-nav.js"></script>
-
     <script src="js/features/contact.js"></script>
-    <script src="js/features/contact-validation.js"></script>
 
 </body>
 

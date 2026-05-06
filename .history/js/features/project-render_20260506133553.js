@@ -48,15 +48,14 @@ function renderProjects() {
 
                 <span
                     class="
-                    bg-white
-                    text-purple-600
+                    bg-red-500
+                    text-white
                     px-5 py-2
                     rounded-sm
                     text-xs
                     font-bold
                     tracking-wide
                     whitespace-nowrap
-                    border border-purple-200
                     shadow-[0_0_15px_rgba(255,255,255,0.9)]">
 
                     ${project.status}
