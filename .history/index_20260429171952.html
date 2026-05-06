@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Raashee Portfolio</title>
+
+  <!-- Tailwind -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class'
+    }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="font-sans text-gray-900 dark:text-white">
+
+<!-- NAVBAR -->
+<nav class="flex justify-between items-center px-10 py-5 border-b">
+  <h1 class="font-bold text-xl">RL</h1>
+
+  <div class="flex gap-6 items-center">
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <button id="theme-toggle" class="px-4 py-2 bg-blue-200 rounded">Theme</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero-section flex items-center px-10">
+
+  <div class="max-w-3xl">
+
+    <h1 class="text-6xl font-bold mb-6">
+      Raashee L
+    </h1>
+
+    <p class="text-xl text-gray-600 dark:text-gray-300 mb-8">
+      Full-Stack Developer building clean and modern web applications.
+    </p>
+
+    <a href="#projects"
+       class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">
+       View Projects
+    </a>
+
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="py-24">
+
+  <div class="max-w-5xl mx-auto px-6">
+
+    <h2 class="text-4xl font-bold mb-16">
+      Selected Projects
+    </h2>
+
+    <div id="projects-container"></div>
+
+  </div>
+
+</section>
+
+<!-- JS -->
+<script src="js/projects.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

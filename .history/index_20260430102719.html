@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Rhaashee Portfolio</title>
+
+  <script>
+    tailwind.config = { darkMode: 'class' }
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+
+<!-- HERO -->
+<section class="hero-section flex items-center justify-center text-center px-6">
+
+  <div class="max-w-2xl">
+
+    <h1 class="text-5xl font-semibold mb-6">
+      Rhaashee L
+    </h1>
+
+    <p class="text-lg text-gray-600 mb-10">
+      Full-Stack Developer building clean and scalable web applications.
+    </p>
+
+    <div class="flex gap-4 justify-center">
+
+      <a href="#" id="view-work-btn" class="btn-primary">
+        View Work
+      </a>
+
+      <a href="assets/resume/Raashee_Resume.pdf" target="_blank" class="btn-secondary">
+        Resume
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- WORK SECTION -->
+<div id="work-section" class="hidden">
+
+  <!-- PROJECTS -->
+  <section id="projects" class="py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-10">Projects</h2>
+      <div id="projects-container"></div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-10">Education</h2>
+      <div id="education-container"></div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="py-20">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold mb-10">Skills</h2>
+      <div id="skills-container"></div>
+    </div>
+  </section>
+
+</div>
+
+<!-- SCRIPTS -->
+<script src="js/data/projects.js"></script>
+<script src="js/data/education.js"></script>
+<script src="js/data/skills.js"></script>
+
+<script src="js/features/project-render.js"></script>
+<script src="js/features/education-render.js"></script>
+<script src="js/features/skills-render.js"></script>
+
+<script src="js/features/theme-toggle.js"></script>
+<script src="js/features/modal.js"></script>
+<script src="js/features/contact-validation.js"></script>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

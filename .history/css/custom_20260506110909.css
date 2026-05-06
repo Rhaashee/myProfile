@@ -1,0 +1,348 @@
+/* ================= GLOBAL ================= */
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    background:#f5f7fb;
+    color:#0f172a;
+    transition:0.4s ease;
+
+    font-family:'Poppins',sans-serif;
+
+}
+
+/* ================= SECTIONS ================= */
+
+section{
+
+    transition:0.4s ease;
+
+}
+
+/* ================= NAVBAR ================= */
+
+nav{
+
+    background:rgba(255,255,255,0.9);
+
+    backdrop-filter:blur(12px);
+
+    border-bottom:1px solid #dbe4ff;
+
+}
+
+/* ================= HEADINGS ================= */
+
+h1,h2,h3{
+
+    color:#0f172a;
+
+}
+
+/* ================= PARAGRAPHS ================= */
+
+p{
+
+    color:#475569;
+
+}
+
+/* ================= PROJECT CARDS ================= */
+
+.project-card{
+
+    background:white;
+
+    border:1px solid #dbe4ff;
+
+    border-radius:18px;
+
+    transition:0.4s ease;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 15px 40px rgba(59,130,246,0.12);
+
+}
+
+/* ================= EDUCATION CARDS ================= */
+
+.education-card{
+
+    background:white;
+
+    border:1px solid #dbe4ff;
+
+    border-radius:20px;
+
+    transition:0.4s ease;
+
+}
+
+.education-card:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:
+    0 15px 40px rgba(59,130,246,0.12);
+
+}
+
+/* ================= BUTTONS ================= */
+
+.primary-btn{
+
+    background:#2563eb;
+
+    color:white;
+
+    border-radius:14px;
+
+    transition:0.3s ease;
+
+}
+
+.primary-btn:hover{
+
+    background:#1d4ed8;
+
+}
+
+/* ================= TECH TAGS ================= */
+
+.tech-tag{
+
+    background:#eff6ff;
+
+    color:#2563eb;
+
+    border-radius:999px;
+
+}
+
+/* ================= STATUS TAGS ================= */
+
+.status-live{
+
+    background:#dcfce7;
+
+    color:#16a34a;
+
+}
+
+.status-completed{
+
+    background:#dbeafe;
+
+    color:#2563eb;
+
+}
+
+.status-prototype{
+
+    background:#ede9fe;
+
+    color:#7c3aed;
+
+}
+
+.status-ongoing{
+
+    background:#ffedd5;
+
+    color:#ea580c;
+
+}
+
+/* ================= INPUTS ================= */
+
+input,
+textarea{
+
+    background:white;
+
+    border:1px solid #cbd5e1;
+
+    border-radius:14px;
+
+    transition:0.3s ease;
+
+}
+
+input:focus,
+textarea:focus{
+
+    outline:none;
+
+    border-color:#2563eb;
+
+    box-shadow:
+    0 0 0 4px rgba(37,99,235,0.12);
+
+}
+
+/* ================= DARK THEME ================= */
+
+.dark-theme{
+
+    background:#000000;
+
+    color:white;
+
+}
+
+/* ================= DARK NAVBAR ================= */
+
+.dark-theme nav{
+
+    background:rgba(0,0,0,0.92);
+
+    border-bottom:1px solid #262626;
+
+}
+
+/* ================= DARK SECTION ================= */
+
+.dark-theme section{
+
+    background:#000000 !important;
+
+}
+
+/* ================= DARK TEXT ================= */
+
+.dark-theme h1,
+.dark-theme h2,
+.dark-theme h3{
+
+    color:white;
+
+}
+
+.dark-theme p,
+.dark-theme span,
+.dark-theme li{
+
+    color:#a8a8a8;
+
+}
+
+/* ================= DARK PROJECT CARD ================= */
+
+.dark-theme .project-card{
+
+    background:#121212;
+
+    border:1px solid #262626;
+
+    box-shadow:none;
+
+}
+
+/* ================= DARK EDUCATION CARD ================= */
+
+.dark-theme .education-card{
+
+    background:#121212;
+
+    border:1px solid #262626;
+
+    box-shadow:none;
+
+}
+
+/* ================= DARK INPUTS ================= */
+
+.dark-theme input,
+.dark-theme textarea{
+
+    background:#121212;
+
+    border:1px solid #262626;
+
+    color:white;
+
+}
+
+/* ================= DARK INPUT PLACEHOLDER ================= */
+
+.dark-theme input::placeholder,
+.dark-theme textarea::placeholder{
+
+    color:#717171;
+
+}
+
+/* ================= DARK TECH TAG ================= */
+
+.dark-theme .tech-tag{
+
+    background:#1e293b;
+
+    color:#60a5fa;
+
+}
+
+/* ================= DARK BUTTONS ================= */
+
+.dark-theme .primary-btn{
+
+    background:#0095f6;
+
+}
+
+.dark-theme .primary-btn:hover{
+
+    background:#1877f2;
+
+}
+
+/* ================= DARK THEME BUTTON ================= */
+
+.dark-theme #theme-toggle{
+
+    background:#1f2937;
+
+    color:white;
+
+}
+
+/* ================= DARK DONUT BG ================= */
+
+.dark-theme .stroke-slate-200{
+
+    stroke:#262626;
+
+}
+
+/* ================= SCROLLBAR ================= */
+
+::-webkit-scrollbar{
+
+    width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+    background:#2563eb;
+
+    border-radius:20px;
+
+}
+
+.dark-theme ::-webkit-scrollbar-thumb{
+
+    background:#0095f6;
+
+}
